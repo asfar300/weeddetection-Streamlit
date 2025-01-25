@@ -38,3 +38,5 @@ if uploaded_image is not None:
     
     # Display prediction
     st.write(f"Predicted Class: {predicted_class[0]}")
+
+
