@@ -13,7 +13,7 @@ uploaded_image = st.file_uploader("Upload a weed image", type=["jpg", "png", "jp
 @st.cache_resource
 def load_trained_model():
     # Load the model (adjust path to your model file)
-    model = load_model('C:/Users/Asfar/OneDrive - Universiti Teknologi MARA/DEGREE SUBJECT/SEM 6/FYP GAMBA DATASET/Weed_detection_app/model_weed_detection.keras')  # Update this with your model path
+    model = load_model('model_weed_detection.keras')  # Update this with your model path
     return model
 
 model = load_trained_model()
